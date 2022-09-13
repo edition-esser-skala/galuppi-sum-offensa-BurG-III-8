@@ -1,0 +1,18 @@
+composer:
+  last: Galuppi
+  first: Baldassare
+title: Sum offensa, sum irata
+id: BurG III/8
+genre: motet
+scoring: S (solo), vl (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-E-19
+    date: 1747–1764
+    rism: 212006119
+    url: https://digital.slub-dresden.de/id426389239
+    license: public domain
+    principal: true
+imslp: Sum_offensa_sum_irata,_BurG_III/8_(Galuppi,_Baldassare)
