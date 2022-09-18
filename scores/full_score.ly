@@ -3,10 +3,16 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+\paper {
+  system-system-spacing.basic-distance = #30
+  system-system-spacing.minimum-distance = #30
+  systems-per-page = #2
+}
+
 \book {
   \bookpart {
     \section "1" "Sum offensa, sum irata"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -44,7 +50,7 @@
         \new FiguredBass { \SumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }
