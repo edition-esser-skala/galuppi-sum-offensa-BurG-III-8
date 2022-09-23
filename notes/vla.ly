@@ -190,3 +190,40 @@ SumViola = {
     a4 r r2 \bar "S-S" %184 finis
   }
 }
+
+QuaeViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuae
+    R1*4
+    \tempoQuaeB R1 %5
+    c4\fE r r2
+    c4 r r2
+    c4 r r2
+    R1
+    h!4\fE r r2 %10
+    d4 r r2
+    d4 r r2
+    d4 r r2
+    R1*2 %15
+    r8. e16[\fE e8. e16] e4 r
+    r8. fis16[ fis8. dis16] dis4 r
+    r8. dis16[ dis8. e16] e8.[ g!16 g8. fis16]
+    fis4 r r2
+    fis4 fis h, h %20
+    ais ais' h r
+    r2 r8. eis,16[ eis8. eis16]
+    eis4 r r8. fis16[ fis8. fis16]
+    fis4 r r2
+    r4 gis gis r %25
+    \tempoQuaeC a,8\f a a\p a a\f a a\p a
+    a\f a a\p a r16 gis'( a h) r h( a gis)
+    r a( h cis) r cis( h a) r4 \mvTr e32\f gis h e, d[ fis h, gis]
+    a4 r a8\pE r a r
+    a4 r r16 fis'( g a) r a( g fis) %30
+    r g( a h) r h( a g) r fis( g a) r a( g fis)
+    r g( a h) r4 r2
+    a,4~ a8 r r2
+    r4 r8 a\fE a4 r\fermata \bar "|." %34 finis
+  }
+}

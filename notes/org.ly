@@ -367,3 +367,81 @@ SumBassFigures = \figuremode {
   r1
   r %184 finis
 }
+
+QuaeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoQuae
+    c1\pE
+    d~
+    \once \tieDashed d~
+    d2 c
+    \tempoQuaeB R1 %5
+    f4\fE r r2
+    f4 r r2
+    fis4 r r2
+    R1
+    g4\fE r r2 %10
+    g4 r r2
+    g4 r r2
+    gis4 r r2
+    r a4\pE r
+    f r r2 %15
+    r8. e16[\fE e8. c16] c4 r
+    r8. dis?16[ dis8. dis16] dis4 r
+    r8. dis16[ dis8. e16] e8.[ e16 e8. e16]
+    e4 r r2
+    d!4 d e e %20
+    fis fis h, r
+    r2 r8. eis16[ eis8. eis16]
+    eis4 r r8. fis16[ fis8. fis16]
+    fis4 r r2
+    r4 gis cis, r %25
+    \tempoQuaeC a8\f a a\p a a\f a a\p a
+    a\f a a\p a gis'^\critnote gis gis gis
+    a r a r r4 \mvTr e32\f-\unisonoE gis h e, d[ fis h, gis]
+    a4 r a8\pE r a r
+    a4 r d8 r d r %30
+    d r d r d r d r
+    g r r4 r2
+    g4~ g8 r r2
+    r4 r8 a\fE d,4 r\fermata \bar "|." %34 finis
+  }
+}
+
+QuaeBassFigures = \figuremode {
+  <6>2 <4+ 2>
+  q1
+  r
+  r2 <6>
+  r1 %5
+  r
+  r
+  r
+  r
+  <_!> %10
+  r
+  r
+  r
+  r
+  <6> %15
+  r8. <_+>4 <6>16 r2
+  r8. <6 _+>16 r2.
+  r8. <6 _+>4 <5 _!> <6+ \t> <6+ 4+ 2+>16
+  <\t \t \t>1
+  <6+> %20
+  <9 5+ _+>8 <8 \t \t>4. <5+>2
+  r r8. <6+ _+>16 r4
+  r2 r8. <5+>16 r4
+  r1
+  r4 <5+ _+> <5+>2 %25
+  <5 _+>2 <6+ 4>
+  <5 _+> <6>
+  <_+>1
+  <_+>
+  <7! _+>2 <_+> %30
+  <6 4> <7! _+>
+  r1
+  <4+ 2>
+  r4. <_+>8 q2 %34 finis
+}

@@ -190,3 +190,40 @@ SumViolinoII = {
     q4 r r2 \bar "S-S" %184 finis
   }
 }
+
+QuaeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuae
+    R1*4
+    \tempoQuaeB r8 f\fE a c f c a f %5
+    a,4 c' f8 c a f
+    a,4 c' f8 c a f
+    a,4 r r2
+    R1
+    r8 g'\fE h d g d h g %10
+    h,4 d' g8 d h g
+    h,4 d' g8 d h g
+    h,4 r r2
+    R1*2 %15
+    r8. h'16[\fE h8. e16] e4 r
+    r8. h16[ h8. fis'16] fis4 r
+    r8. h,16[ h8. h16] h8.[ cis16 cis8. ais16]
+    ais4 r r2
+    h'4.~ h32 a g fis g8 r \tuplet 3/2 4 { e fis g } %20
+    g8. fis16 \tuplet 3/2 4 { cis8 d e } d4 r
+    r2 r8. cis,16[ cis8. cis16]
+    cis4 r r8. cis16[ cis8. cis16]
+    cis4 r r2
+    r4 his' cis r %25
+    \tempoQuaeC r16 a,(\f cis e) r e(\p a cis) r a,(\f d fis) r fis(\p a d)
+    r a,(\fE cis e) r e(\pE a cis) r h( cis d) r d( cis h)
+    r cis( d e) r e( d cis) a'64([\fE g fis e d cis h a)] a( gis fis e d cis h a) e'32 gis h e, d[ fis h, d]
+    cis4 r r16 a(\pE cis e) r e( a cis)
+    e,4 r r16 a( h c!) r c( h a) %30
+    r h( c d) r d( c h) r a( h c) r c( h a)
+    r h( c d) \once \slurDashed g32(\f fis e d c h a g) g,8 r r4
+    cis4~\p cis8 r r2
+    r4 r8 cis\fE d4 r\fermata \bar "|." %34 finis
+  }
+}

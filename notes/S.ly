@@ -283,3 +283,71 @@ SumSopranoLyrics = \lyricmode {
   ta -- _ _
   lis. %178 finis
 }
+
+QuaeSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoQuae
+    r4 r8 a' fis fis r c'16 h
+    gis8 gis r4 h gis8 h
+    e,4 r8 e gis4 gis
+    h8 c d d16 c a4 r
+    \tempoQuaeB R1*3 %7
+    a8.([ b16] a4) r fis8 g
+    a4 a8 a c c c d
+    h! h r4 r2 %10
+    R1*2
+    r2 h4 h8 h
+    gis4 r8 e' c c r c
+    a a r a16 a d8 d16 a a8 gis %15
+    h h r4 r8 e e a,
+    h h r4 r dis
+    R1
+    r2 cis4 e8([ d!])
+    h h r4 r2 %20
+    r r4 r8 fis
+    h h cis d cis cis r4
+    cis8 gis16 gis a8 h a a r4
+    cis4 h16 a gis fis his8 his16 fis' his,8 cis
+    gis gis r4 r2 %25
+    \tempoQuaeC R1*3
+    r4 cis8 e a,4 r
+    r g!8 a fis fis r a %30
+    h h r4 c!8 a r4
+    d8 h r4 h8 h16 h a8 g
+    \appoggiatura d' cis4 cis e8 cis r d
+    \appoggiatura d a a r4 r2\fermata \bar "|." %34 finis
+  }
+}
+
+QuaeSopranoLyrics = \lyricmode {
+  Quae lo -- quor quae de --
+  li -- ro ti -- mor non
+  est qui_a -- ma -- re
+  cae -- li tur -- bat in me.
+
+  Heu __ dum a -- %8
+  spi -- ro ad sum -- mum Dei fa --
+  vo -- re, %10
+
+  mi -- se -- rum %13
+  cor non vi -- des quam
+  bre -- vis, quam in -- fir -- ma sit in te %15
+  fi -- des? Quid nunc a --
+  gen -- dum? Dic!
+
+  Ah! Re --
+  spon -- des? %20
+  Cum
+  ve -- ra fer -- vet a -- mor,
+  sem -- per ti -- mo -- re ri -- gat,
+  sed nunc ma -- ior ab i -- psa af -- fe -- ctus
+  vi -- get. %25
+
+  I -- ta sit, %29
+  er -- go spe -- ra ex -- %30
+  o -- ra plan -- ge
+  cla -- ma, fi -- dem con -- fir -- ma
+  tu -- am ti -- me ed
+  a -- ma. %34 finis
+}

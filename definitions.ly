@@ -7,6 +7,9 @@
 
 
 tempoSum = \tempoMarkup "[Allegro]"
+tempoQuae = \tempoMarkup "Recitativo"
+  tempoQuaeB = \tempoMarkup "Allegro"
+  tempoQuaeC = \tempoMarkup "Largo"
 
 
 \include "notes/vl1.ly"
