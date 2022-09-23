@@ -368,3 +368,108 @@ DumViola = {
     g4 r \bar "S-S" %140 finis
   }
 }
+
+AlleluiaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/8 \tempoAlleluia
+    a8\fE r a
+    a r a
+    a r r
+    R4.*2 %5
+    a8\fE r a
+    a r a
+    a r r
+    R4.*2 %10
+    d16\fE d d d d d
+    cis cis cis cis cis cis
+    h h h h h h
+    a a a a a a
+    g g g g g g %15
+    fis4 fis'8
+    g16 g g g gis gis
+    a8 a a
+    a a a
+    a,4.~ %20
+    a~
+    a\fermata
+    R4.*2
+    a8\fE^\critnote r a %25
+    a r a
+    a r r
+    R4.*2
+    a8\fE r a %30
+    a r a
+    a r r
+    R4.*2
+    d8\pE d' d %35
+    cis cis cis
+    h h h
+    a a a
+    g g g
+    fis4 r8 %40
+    R4.*2
+    h8 g gis
+    a cis a
+    d h gis %45
+    cis a fis
+    h gis e
+    a cis a
+    d h gis
+    cis a fis %50
+    h gis e
+    a r gis
+    fis r e
+    d r cis
+    d e e, %55
+    a r gis'
+    fis r e
+    d r cis
+    d e e,
+    a16 d e8 e, %60
+    a16 d e8 e,
+    a16\fE a a' a gis gis
+    fis fis fis fis cis cis
+    d8 d'16 h e e,
+    a,4 r8 %65
+    R4.*2
+    a8\fE r a
+    a r a
+    a4 r8 %70
+    R4.*2
+    a8\fE r a
+    a r a
+    a4 r8 %75
+    R4.*2
+    d8\pE fis d
+    g h g
+    fis a fis %80
+    e a, cis
+    d fis d
+    g h g
+    fis d fis
+    e a, cis %85
+    d r fis
+    g r gis
+    a r ais
+    h r d
+    cis a d %90
+    g, a a,
+    r d\fE fis
+    g r r
+    r d fis
+    g r r %95
+    r d fis
+    g r r
+    r r g\pE
+    a a, a
+    d r g %100
+    a a, a
+    d fis g
+    a a, a
+    d16\fE d d d d d
+    d d d d d d %105
+    d8 d d
+    d4 r8\fermata \bar "|." %107 finis
+  }
+}

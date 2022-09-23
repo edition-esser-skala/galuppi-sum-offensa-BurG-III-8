@@ -570,3 +570,165 @@ DumSopranoLyrics = \lyricmode {
   cor __ in
   te. %133 finis
 }
+
+AlleluiaSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \autoBeamOff \tempoAlleluia
+    R4.*22 %22
+    r8 d'\pE d
+    d d, r
+    R4.*3 %27
+    d'16([ cis e d fis e)]
+    a,8 \appoggiatura a g4\trill
+    fis r8 %30
+    R4.*2
+    d'16([ cis e d fis e)]
+    a,8 \appoggiatura a g4\trill
+    fis8 \tuplet 3/2 8 { d'16[ cis d] fis[ e d] } %35
+    e8 \tuplet 3/2 8 { cis16[ h a] e'[ d cis] }
+    h8 \tuplet 3/2 8 { d16[ cis h] fis'[ e d] }
+    cis8 \tuplet 3/2 8 { a16[ g fis] cis'[ h a] }
+    g8 \tuplet 3/2 8 { h16[ a g] d'[ cis h] }
+    a8 \tuplet 3/2 8 { fis16[ e d] g[ fis e] } %40
+    \tuplet 3/2 8 { a[ g fis] h[ a g] cis[ h a] }
+    \tuplet 3/2 8 { d[ cis h] e[ d cis] fis[ e d] }
+    g[ fis] e8[ d]
+    \appoggiatura d cis4 \appoggiatura fis32 e16[ d32 e]
+    fis8 r \appoggiatura e32 d16[ cis32 d] %45
+    e8 r \appoggiatura d32 cis16[ h32 cis]
+    d8 r \appoggiatura cis32 h16[ a32 h]
+    cis8 r \appoggiatura fis32 e16[ d32 e]
+    fis8 r \appoggiatura e32 d16[ cis32 d]
+    e8 r \appoggiatura d32 cis16[ h32 cis] %50
+    d8 r \appoggiatura cis32 h16[ a32 h]
+    cis8 \tuplet 3/2 8 { e16[ d cis] h[ a gis] }
+    a8 \tuplet 3/2 8 { e'16[ d cis] h[ a gis] }
+    a8 \tuplet 3/2 8 { a'16[ gis fis] e[ d cis] }
+    \tuplet 3/2 8 { fis[ e d] cis[ h a] h[ a gis] } %55
+    a8 \tuplet 3/2 8 { e'16[ d cis] h[ a gis] }
+    a8 \tuplet 3/2 8 { e'16[ d cis] h[ a gis] }
+    a8 \tuplet 3/2 8 { a'16[ gis fis] e[ d cis] }
+    \tuplet 3/2 8 { fis[ e d] cis[ h a] h[ a gis] }
+    a fis' \appoggiatura fis32 e16([ d)] \appoggiatura d32 cis16([ h)] %60
+    a fis' e([ d)] cis([ h)]
+    a4 r8
+    R4.*3 %65
+    r8 e' e
+    cis16([ h)] a4
+    R4.*3 %70
+    a16([ gis h a cis h)]
+    e,8 \appoggiatura e d4\trill
+    cis r8
+    R4.*2 %75
+    d'16([ cis e d fis e)]
+    a,8 \appoggiatura a g!4\trillE
+    fis8 r \appoggiatura e'32 d16[ cis32 d]
+    h8 r \appoggiatura e32 d16[ cis32 d]
+    a8 r \appoggiatura e'32 d16[ cis32 d] %80
+    g,8 \tuplet 3/2 8 { e'16[ d cis] h[ a g] }
+    fis8 r \appoggiatura e'32 d16[ cis32 d]
+    h8 r \appoggiatura e32 d16[ cis32 d]
+    a8 r \appoggiatura e'32 d16[ cis32 d]
+    g,8 \tuplet 3/2 8 { e'16[ d cis] h[ a g] } %85
+    fis8 \tuplet 3/2 8 { a16[ g fis] cis'[ h a] }
+    \tuplet 3/2 8 { h[ a g ]e'[ d cis] d[ cis h] }
+    \tuplet 3/2 8 { cis[ h a] fis'[ e d] e[ d cis] }
+    \tuplet 3/2 8 { d[ cis h] g'[ fis e] d[ cis h] }
+    a8 g'16([ e fis d]) %90
+    \tuplet 3/2 8 { g[( fis e]) } e4\trill
+    d r8
+    r cis e
+    d fis, r
+    r e' cis %95
+    d a4
+    r8 cis[ e]
+    \tuplet 3/2 8 { fis16[ e d] cis[ h a] h[ a g] }
+    \tuplet 3/2 8 { fis[ e d] } e'4\trill
+    \tuplet 3/2 8 { fis16[ e d] cis[ h a] h[ a g] } %100
+    \tuplet 3/2 8 { fis[ e d] } e'4\trill
+    \tuplet 3/2 8 { fis16[ e d] cis[ h a] h[ a g] }
+    \tuplet 3/2 8 { fis[ e d] } e'4\trill
+    d4.~
+    d %105
+    R4.
+    R\fermata \bar "|." %107 finis
+  }
+}
+
+AlleluiaSopranoLyrics = \lyricmode {
+  Al -- le -- %23
+  lu -- ia,
+
+  al -- %28
+  le -- lu --
+  ia, %30
+
+  al -- %33
+  le -- lu --
+  ia, __ _ _ %35
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %40
+  _ _ _
+  _ _ _
+  _ _
+  _ _
+  _ _ %45
+  _ _
+  _ _
+  _ _
+  _ _
+  _ _ %50
+  _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %55
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _  al -- le -- lu -- %60
+  ia, al -- le -- lu --
+  ia.
+
+  Al -- le -- %66
+  lu -- ia,
+
+  al -- %71
+  le -- lu --
+  ia,
+
+  al -- %76
+  le -- lu --
+  ia, __ _
+  _ _
+  _ _ %80
+  _ _ _
+  _ _
+  _ _
+  _ _
+  _ _ _ %85
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ al -- %90
+  le -- lu --
+  ia,
+  al -- le --
+  lu -- ia,
+  al -- le -- %95
+  lu -- ia,
+  al --
+  _ _ _
+  _ _
+  _ _ _ %100
+  _ _
+  _ _ _
+  le -- lu --
+  ia. __ %104 finis
+}

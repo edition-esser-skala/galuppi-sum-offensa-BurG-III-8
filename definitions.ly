@@ -13,6 +13,7 @@ tempoQuae = \tempoMarkup "Recitativo"
 tempoDum = \tempoMarkup "Andante"
   tempoDumB = \tempoMarkup "Allegro"
   tempoDumC = \tempoMarkup "Andante"
+tempoAlleluia = \tempoMarkup "[Allegro]"
 
 
 \include "notes/vl1.ly"

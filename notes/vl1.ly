@@ -441,3 +441,114 @@ DumViolinoI = {
     g8 d g, r \bar "S-S" %140 finis
   }
 }
+
+AlleluiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoAlleluia
+    <fis' a, d,>8\fE a16.[ fis32] q8
+    q a16.[ fis32] q8
+    q r r
+    d16(\p cis) e( d) fis( e)
+    a,16. h32 \appoggiatura a8 g4 %5
+    <fis' a, d,>8\fE a16.[ fis32] q8
+    q a16.[ fis32] q8
+    q r r
+    d16(\p cis) e( d) fis( e)
+    a,16. h32 \appoggiatura a8 g4 %10
+    fis8\fE \tuplet 3/2 8 { d'16[ cis d] fis e d }
+    a'8 \tuplet 3/2 8 { cis,16[ h a] e' d cis }
+    d8 \tuplet 3/2 8 { d16[ cis h] e d cis }
+    fis8 \tuplet 3/2 8 { cis16[ h a] e' d cis }
+    h8 \tuplet 3/2 8 { h16[ a g] cis h a } %15
+    d8 \tuplet 3/2 8 { fis16[ e d] a' g fis }
+    \tuplet 3/2 8 { h a g h[ a g] fis e d }
+    cis( a) a( e') e( g)
+    fis( a,) a( d) d( fis)
+    e8( a, g') %20
+    fis( a, fis')
+    \appoggiatura fis e4.\fermata
+    R4.*2
+    <fis a, d,>8\fE a16.[ fis32] q8 %25
+    q a16.[ fis32] q8
+    q r r
+    d16(\p cis) e( d) fis( e)
+    a,8 \appoggiatura a g4
+    <fis' a, d,>8\f a16.[ fis32] q8 %30
+    q a16.[ fis32] q8
+    q r r
+    d16(\p cis) e( d) fis( e)
+    a,8 \appoggiatura a g4
+    fis8 fis' fis %35
+    e e e
+    d d d
+    cis cis cis
+    h h h
+    a r r %40
+    R4.*2
+    g'16 fis e8[ d]
+    \appoggiatura d cis r \appoggiatura fis32 e16 d32 e
+    fis8 r \appoggiatura e32 d16 cis32 d %45
+    e8 r \appoggiatura d32 cis16 h32 cis
+    d8 r \appoggiatura cis32 h16 a32 h
+    cis8 r \appoggiatura fis32 e16 d32 e
+    fis8 r \appoggiatura e32 d16 cis32 d
+    e8 r \appoggiatura d32 cis16 h32 cis %50
+    d8 r \appoggiatura cis32 h16 a32 h
+    cis8 r e
+    cis r cis
+    fis r e
+    d cis h %55
+    a r e'
+    cis r cis
+    fis r e
+    d cis h
+    a16 fis' \appoggiatura fis32 e16 d \appoggiatura d32 cis16 h %60
+    a fis' e d cis h
+    <cis a'>32\fE q q q q[ q q q] q q q q
+    q q q q q[ q q q] q q q q
+    fis e d cis d16[ h e e,]
+    a4 r8 %65
+    R4.*2
+    <cis e, a,>8\fE e16.[ cis32] q8
+    q e16.[ cis32] q8
+    q r r %70
+    R4.
+    e,8\p \appoggiatura e d4
+    <cis' e, a,>8\fE e16.[^\critnote cis32] q8
+    q e16.[ cis32] q8
+    q r r %75
+    R4.
+    a8\pE \appoggiatura a g!4
+    fis8 r \appoggiatura e'32 d16 cis32 d
+    h8 r \appoggiatura e32 d16 cis32 d
+    a8 r \appoggiatura e'32 d16 cis32 d %80
+    g,8 e' g,
+    fis r \appoggiatura e'32 d16 cis32 d
+    h8 r \appoggiatura e32 d16 cis32 d
+    a8 r \appoggiatura e'32 d16 cis32 d
+    g,8 e' g, %85
+    fis r d'
+    d r e
+    e r fis
+    fis r h,
+    e g!16( e fis d) %90
+    \tuplet 3/2 8 { g fis e } e4\trill
+    r8 <fis a, d,>\fE <a a, d,>
+    <g h, d,> cis,[\pE e]
+    r8 <fis a, d,>\fE <a a, d,>
+    <g h, d,> cis,[\pE e] %95
+    r8 <fis a, d,>\fE <a a, d,>
+    <g h, d,> cis,[\pE e]
+    fis r g
+    fis e e
+    fis r g %100
+    fis e e
+    \tuplet 3/2 8 { fis16 e d cis[ h a] h a g }
+    \tuplet 3/2 8 { fis e d } e'4\trill
+    <fis a, d,>8\fE a16.[^\critnote fis32] q8
+    q a16.[ fis32] q8 %105
+    q q q
+    q4 r8\fermata \bar "|." %107 finis
+  }
+}

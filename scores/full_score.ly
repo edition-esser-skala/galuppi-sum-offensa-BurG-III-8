@@ -95,55 +95,97 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Dum Philomela in ramo"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new Staff {
+  %         \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+  %         \DumViolinoSolo
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DumViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DumViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DumSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DumSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Dum Philomela in ramo"
+    \section "4" "Alleluia"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #2
-    }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \DumViolinoSolo
-        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DumViolinoI
+              \AlleluiaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DumViolinoII
+              \AlleluiaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DumViola
+            \AlleluiaViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DumSoprano }
+            \new Voice = "Soprano" { \dynamicUp \AlleluiaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \DumSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AlleluiaSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DumOrgano
+            \AlleluiaOrgano
           }
         >>
-        \new FiguredBass { \DumBassFigures }
+        \new FiguredBass { \AlleluiaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 8 = 160 }
     }
   }
 }
