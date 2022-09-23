@@ -6,24 +6,42 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
-    \addTocEntry
+    \section "1" "Sum offensa, sum irata"
+    \addTocLabel "sum"
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Bassi"
-          \xxxOrgano
+          \SumOrgano
         }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
-    \addTocEntry
+    \section "2" "Quae loquor quae deliro"
+    \addTocLabel "quae"
     \score {
       <<
-        \new Staff { \yyyOrgano }
+        \new Staff { \QuaeOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Dum Philomela in ramo"
+    \addTocLabel "dum"
+    \score {
+      <<
+        \new Staff { \DumOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Alleluia"
+    \addTocLabel "alleluia"
+    \score {
+      <<
+        \new Staff { \AlleluiaOrgano }
       >>
     }
   }

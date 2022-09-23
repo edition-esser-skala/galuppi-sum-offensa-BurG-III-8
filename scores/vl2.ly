@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \SumViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \SumViolinoII
         }
       >>
     }
@@ -23,20 +23,7 @@
     \addTocLabel "quae"
     \score {
       <<
-        \new Staff { \QuaeViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "3" "Dum Philomela in ramo"
-    \addTocLabel "dum"
-    \paper { page-count = #1 }
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \DumViolinoSolo
-        }
+        \new Staff { \QuaeViolinoII }
       >>
     }
   }
@@ -45,7 +32,7 @@
     \addTocLabel "dum"
     \score {
       <<
-        \new Staff { \DumViolinoI }
+        \new Staff { \DumViolinoII }
       >>
     }
   }
@@ -54,7 +41,7 @@
     \addTocLabel "alleluia"
     \score {
       <<
-        \new Staff { \AlleluiaViolinoI }
+        \new Staff { \AlleluiaViolinoII }
       >>
     }
   }
