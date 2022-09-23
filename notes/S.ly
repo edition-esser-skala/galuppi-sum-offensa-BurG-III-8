@@ -351,3 +351,222 @@ QuaeSopranoLyrics = \lyricmode {
   tu -- am ti -- me ed
   a -- ma. %34 finis
 }
+
+DumSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/4 \autoBeamOff \tempoDum
+    R2*22 \bar "S-S" %22
+    g'8\pE h16. a32 g8 c
+    c16([ h)] h4.
+    g8 h16. a32 g8 e' %25
+    e16([ d)] d4 g8
+    g32([ fis16.)] fis32([ e16.)] e32([ d16.)] d32([ c16.)]
+    c8 h4 e8
+    e32([ a,16.)] a32([ c16.)] c32([ h16.)] h32([^\critnote a16.)]
+    g8[ g16. a32] g16[ g g g] %30
+    g8 r r4
+    r8 h16.[ c32] h16[ h h h]
+    h8 r r4
+    r8 d16.[ e32] d16[ d d d]
+    d8 r r4 %35
+    r16 d[ g16. d32] g16.[ d32 g16 g]
+    g2~
+    g4~ \tuplet 3/2 8 { g16 fis([ e)] d([ c)] h }
+    h8 a r4
+    d,8 fis16.^\critnote e32 d8 d' %40
+    d( cis4) h8
+    a g16.^\critnote fis32 g32([ e16.)] h'32([ g16.)]
+    g8 fis4.
+    ais16([ h)] h8 r h
+    cis16([ d)] d8 r d %45
+    d~ d32[ cis fis e] d8 fis,
+    \appoggiatura fis e4 r
+    R2
+    r8 a16.[( h32] a8[ a16. h32])
+    a4 r %50
+    r8 a16.[( h32]) a8[( a16. h32])
+    a4 r
+    r8 a \tuplet 3/2 8 { h16([ cis d)] e([ fis g)] }
+    a,4 g
+    fis8 a' \tuplet 3/2 8 { g16([ fis e)] d([ cis h)] } %55
+    a4 e'
+    d r
+    R2*5 %62
+    d8 d16. d32 d8 d
+    f32[( e d16]) d8 r d16([ f)]
+    f32([ e16.)] e32([ d16.)] d32([ c!16.)] c32([ h16.)] %65
+    c32([ h a16)] a8 r4
+    r8 c16.([ d32)] c16[ c c e]
+    c4 r
+    r16 a[ a a] a[ a a a]
+    a2~\trill %70
+    \once \tieDashed a4.~ a32([ h64 c d e fis gis)]
+    a8 a, r a16 c
+    h8 d \tuplet 3/2 8 { g16([ fis e)] d([ c h)] }
+    h([ a)] a8 e'4
+    d8.([ c32 d)] \tuplet 3/2 8 { e16([ d c)] h([ a)] g } %75
+    d'4 d,8 r
+    R2
+    r4\fermata r8 d
+    g16([ h)] h4 a16 gis
+    a([ c)] c4. %80
+    h16([ d)] d8. e32([ d)] c16 h
+    h([ a)] a4 r8
+    R2
+    a16([ c)] c8 r a
+    h16([ d)] \once \tieDashed d8~ d c16([ h)] %85
+    h8 a r4
+    c8 c16 c \appoggiatura { c16[ d] } e8. d32([ c)]
+    \appoggiatura c8 h4 r
+    a8 a16 a a8 \appoggiatura h16 g8
+    fis! \tuplet 3/2 8 { e'16([ d e)] d([ h d)] c([ h a)] } %90
+    g8.([ a16)] a4
+    g r
+    h8.([ h32 d)] c16 h c a
+    h([ d)] d8 r4
+    h8.([ h32 d)] c16 h c a %95
+    h([ d)] d8 r4
+    h8.([ h32 d)] c16 h c a
+    h([ e)] e8 d16([ c)] h a
+    g8.([ a16)] a4\trill
+    g r %100
+    r8 d'16.([ e32)] d8([ d16. e32])
+    d8 r r4
+    r8 h16.([ c32]) h8([ h16. c32)]
+    h8 r r4
+    r8 g' \tuplet 3/2 8 { fis16([ e d)] c([ h a)] } %105
+    d,4 a'\trill
+    h'8 a16.([ g32)] fis16.([ e32)] d16.([ c32)]
+    h4\fermata a\trill
+    g r
+    R2*5 %114
+    r4 r8\fermata h %115
+    \tempoDumB e h g fis16. e32
+    c'16([ h)] c4 a8
+    dis dis dis dis
+    e h4 a8
+    \appoggiatura a4 g2 %120
+    fis4 r
+    gis8 gis16 gis gis8 d'!
+    d16([ cis)] cis4.
+    ais8 ais16 ais ais8 e'
+    e16([ d)] d4. %125
+    cis8 cis16 cis cis8 h
+    ais16([ e')] e4 d16([ cis)]
+    d8 cis16([ h)] h8 h
+    h([ dis e)] g
+    ais, h r4 %130
+    r r8 h
+    h4 h
+    h8.([ cis16] cis8.)\fermata h16
+    h4 r
+    \tempoDumC R2*6 \bar "S-S" %140 finis
+  }
+}
+
+DumSopranoLyrics = \lyricmode {
+  Dum Phi -- lo -- me -- la_in %23
+  ra -- mo,
+  dum Phi -- lo -- me -- la_in %25
+  ra -- mo can --
+  tan -- do di -- cit
+  a -- mo, can --
+  tan -- do di -- cit
+  a -- _ %30
+  _
+  _ _
+  _
+  _ _
+  _ %35
+  _ _
+  _
+  mo, di -- cit
+  a -- mo,
+  per au -- ras dul -- ce %40
+  pe -- nas
+  me -- tus in -- fe -- sti
+  nar -- rat
+  me -- sta ge --
+  men -- do, ge -- %45
+  men -- do in
+  se,
+
+  me --
+  sta %50
+  ge -- men --
+  do,
+  me -- sta __ ge --
+  men -- do_in
+  se, me -- sta __ ge -- %55
+  men -- do_in
+  se.
+
+  Dum Phi -- lo -- me -- la_in %63
+  ra -- mo can --
+  tan -- do di -- cit %65
+  a -- mo,
+  can -- tan --
+  _
+  _ _
+  _ %70
+
+  _ do, dum in
+  ra -- mo di -- cit __
+  a -- mo, can --
+  tan -- do __ Phi -- lo -- %75
+  me -- la,
+
+  per
+  au -- ras dul -- ce
+  pe -- nas %80
+  me -- tus in -- fe -- sti
+  nar -- rat,
+
+  me -- tus in --
+  fe -- _ sti %85
+  nar -- rat
+  me -- sta ge -- men -- do_in
+  se,
+  ge -- men -- do me -- sta_in
+  se, me -- sta __ ge -- %90
+  men -- do_in
+  se.
+  Dum __ Phi -- lo -- me -- la_in
+  ra -- mo
+  per __ au -- ras dul -- ce %95
+  nar -- rat,
+  me -- tus in -- fe -- sti
+  pe -- nas me -- sta ge --
+  men -- do_in
+  se, %100
+  ge -- men --
+  do,
+  ge -- men --
+  do,
+  me -- sta __ ge -- %105
+  men -- do_in
+  se, me -- sta ge --
+  men -- do_in
+  se.
+
+  Sic %115
+  quan -- do um -- bra ti --
+  mo -- ris fit
+  cau -- sa mei do --
+  lo -- _ _
+  _ %120
+  ris,
+  vo -- ces ad cae -- lum
+  spar -- git
+  me -- tu_et a -- mo -- re
+  ple -- nas, %125
+  me -- tu_et a -- mo -- re
+  ple -- nas, af --
+  fli -- ctum cor in
+  me, __ af --
+  fli -- ctum, af -- %130
+  fli -- ctum
+  cor __ in
+  te. %133 finis
+}

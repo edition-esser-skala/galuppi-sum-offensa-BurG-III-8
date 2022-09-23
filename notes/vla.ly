@@ -227,3 +227,144 @@ QuaeViola = {
     r4 r8 a\fE a4 r\fermata \bar "|." %34 finis
   }
 }
+
+DumViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key g \major \time 2/4 \tempoDum
+    g8\fE g g g
+    r g h c
+    d d, r d'
+    r g e g
+    r e \appoggiatura g fis4
+    g8 r r4
+    R2*6 %12
+    d2~\p
+    d8 r r4
+    d2~ %15
+    d8 r r4
+    d2\fE
+    r8 c' fis, d
+    r h c d
+    g, h c c' %20
+    r g g fis \noBreak
+    g4 r \bar "S-S"
+    r8 g\pE g g, \noBreak
+    r g' g g,
+    r g' g g, %25
+    r g' h c
+    d d, r4
+    g8 g e c
+    r c' d d,
+    g r r4 %30
+    g8 r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4 %35
+    g8 r r4
+    g8 r r4
+    g8 g, h c
+    d d, d r
+    r d' fis g %40
+    r a a g
+    fis d e a,
+    r d fis d
+    r g g g,
+    r fis' fis fis %45
+    r fis g gis
+    a4 r
+    d, r
+    r8 d4 d8~
+    d r r4 %50
+    r8 d4 d8~
+    d r r4
+    r8 fis g g
+    r a a a,
+    d fis g g %55
+    a a a, a
+    d\fE d a' a,
+    d d, r4
+    r8 d' a' a,
+    d d d d %60
+    fis d4 cis8
+    d4 r
+    r8 h'\p h a
+    gis gis, r gis'
+    a d, e e, %65
+    a r r4
+    a8 r r4
+    a8 r r4
+    a8 r r4
+    R2*2 %71
+    a8 a' fis d
+    g r c, r
+    d4 r8 c'
+    h h c cis %75
+    d4 r
+    R2
+    R\fermata
+    d,~
+    d~ %80
+    \once \tieDashed d~
+    d4 r
+    d2~
+    d~
+    \once \tieDashed d~ %85
+    d8 d, d r
+    r e' e e
+    r d d d
+    r c c' cis
+    d c h c %90
+    d d d, d
+    g4 r
+    r8 g d4
+    g,8 r r4
+    r8 g' d4 %95
+    g,8 r r4
+    r8 g' d4
+    g8 c,4 fis8
+    g h, c d
+    g, r r4 %100
+    r8 g'4 g8~
+    g r r4
+    r8 g4 g8~
+    g r r4
+    r8 g,\f h c %105
+    d d d, d
+    g a h c
+    d2\fermata
+    g,8 g g g
+    r g' g g, %110
+    r g' h c
+    d d, r d
+    g a h c
+    g e c d
+    g,4 r\fermata %115
+    \tempoDumB e'8\fp^\critnote e e e
+    e e e e
+    e e e e
+    e e dis dis
+    e e ais, ais %120
+    h h h h
+    e^\critnote e e e
+    a a g! g
+    fis fis fis fis
+    h h h, h %125
+    e^\critnote e g g
+    r fis ais fis
+    h d, e fis
+    g fis\fE g e
+    e d! r4 %130
+    r8 g fis e
+    r g fis eis
+    fis2\fermata
+    h,4 r
+    \tempoDumC d8 d d d %135
+    d4 r
+    d8 d d d
+    h c d g
+    g g4 fis8
+    g4 r \bar "S-S" %140 finis
+  }
+}

@@ -53,46 +53,97 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Quae loquor quae deliro"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuaeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuaeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuaeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuaeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuaeSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuaeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuaeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Quae loquor quae deliro"
-    % \addTocEntry
+    \section "3" "Dum Philomela in ramo"
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #2
+    }
     \score {
       <<
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+          \DumViolinoSolo
+        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuaeViolinoI
+              \DumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuaeViolinoII
+              \DumViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuaeViola
+            \DumViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuaeSoprano }
+            \new Voice = "Soprano" { \dynamicUp \DumSoprano }
           }
-          \new Lyrics \lyricsto Soprano \QuaeSopranoLyrics
+          \new Lyrics \lyricsto Soprano \DumSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuaeOrgano
+            \DumOrgano
           }
         >>
-        \new FiguredBass { \QuaeBassFigures }
+        \new FiguredBass { \DumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

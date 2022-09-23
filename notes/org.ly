@@ -445,3 +445,290 @@ QuaeBassFigures = \figuremode {
   <4+ 2>
   r4. <_+>8 q2 %34 finis
 }
+
+DumOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoDum
+    g'8\fE g g g
+    r g h c
+    d d, r fis
+    r g e c
+    r c d d %5
+    g r r4
+    g8\p r r4
+    g8 r r4
+    g8 r r4
+    g8 c h a %10
+    g h4 c8
+    d d, d r
+    r g d4
+    g,8 r r4
+    r8 g' d4 %15
+    g,8 r r4
+    r8 g'\fE d4
+    r8 c' fis, d
+    r h c d
+    g, h c c' %20
+    r h c d \noBreak
+    g,4 r \bar "S-S"
+    r8 g\pE g g, \noBreak
+    r g' g g,
+    r g' g g, %25
+    r g' h c
+    d d, r4
+    g8 g e c
+    r c' d d,
+    g r r4 %30
+    g8 r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4 %35
+    g8 r r4
+    g8 r r4
+    g8 g, h c
+    d d, d r
+    r d' fis g %40
+    r a a g
+    fis d e a,
+    r d fis d
+    r g g g,
+    r fis' fis fis %45
+    r fis g gis
+    a4 r
+    d, r
+    r8 d4 d8~
+    d r r4 %50
+    r8 d4 d8~
+    d r r4
+    r8 fis g g
+    r a a a,
+    d fis g g %55
+    a a a, a
+    d\fE d a' a,
+    d d, r4
+    r8 d' a' a,
+    d fis g gis %60
+    a fis g a
+    d,4 r
+    r8 h'\p h a
+    gis gis, r gis'
+    a d, e e, %65
+    a r r4
+    a8 r r4
+    a8 r r4
+    a8 r r4
+    R2*2 %71
+    a8 a' fis d
+    g r c, r
+    d4 r8 c'
+    h h c cis %75
+    d4 r
+    R2
+    R\fermata
+    r8 g, g g,
+    r fis' fis d %80
+    r g h, c
+    r d d d,
+    r g' g g,
+    r d' fis d
+    r g h, c %85
+    d d, d r
+    r e' e e
+    r d d d
+    r c c' cis
+    d c h c %90
+    d d d, d
+    g4 r
+    r8 g d4
+    g,8 r r4
+    r8 g' d4 %95
+    g,8 r r4
+    r8 g' d4
+    g8 c,4 fis8
+    g h, c d
+    g, r r4 %100
+    r8 g'4 g8~
+    g r r4
+    r8 g4 g8~
+    g r r4
+    r8 g,\f h c %105
+    d d d, d
+    g a h c
+    d2\fermata
+    g,8 g g g
+    r g' g g, %110
+    r g' h c
+    d d, r d
+    g a h c
+    g e c d
+    g,4 r\fermata %115
+    \tempoDumB e'8\fp^\critnote e e e
+    e e e e
+    e e e e
+    e e dis dis
+    e e ais, ais %120
+    h h h h
+    e^\critnote e e e
+    a a g! g
+    fis fis fis fis
+    h h h, h %125
+    e^\critnote e g g
+    r fis ais fis
+    h d, e fis
+    g fis\fE g e
+    e d! r4 %130
+    r8 g fis e
+    r g fis eis
+    fis2\fermata
+    h,4 r
+    \tempoDumC g'8 g d d %135
+    g,4 r
+    g'8 g d d
+    g a h c
+    r h c d
+    g,4 r \bar "S-S" %140 finis
+  }
+}
+
+DumBassFigures = \figuremode {
+  r4. <6 4>8
+  <\t \t> <5 3> <6>4
+  <9 4>8 <8 3>4 <6 5>8
+  <9 4> <8 3>4.
+  r8 <6> <4> <3> %5
+  r2
+  r
+  r
+  r
+  r %10
+  r
+  <6 4>8 <5 3>4.
+  r4 <7>
+  r2
+  r4 <7> %15
+  r2
+  r4 <7>
+  r q
+  r8 <6> q4
+  r8 <6>4. %20
+  r8 q <6 5>4
+  r2
+  r4. <6 4>8
+  <\t \t> <5 3>4.
+  r <6 4>8 %25
+  <\t \t> <5 3> <6>4
+  <9 4>8 <8 3>4.
+  <9 4>8 <8 3>4.
+  r8 <6> <6 4> <5 3>
+  r2 %30
+  r
+  r
+  r
+  r
+  r %35
+  r
+  r
+  r4 <6>
+  <6 4>8 <5 3>4.
+  r4 <6> %40
+  <4>8 <_+>4 <4+ 3>8
+  <6>4 <7>8 <7 _+>
+  r2
+  r4. <6>8
+  r <6>4. %45
+  r8 q q <7>
+  <6 4> <5 _+>4.
+  r2
+  r
+  r %50
+  r
+  r
+  r8 <6> q4
+  <8 6 _+>4 <7 5 \t>
+  r8 <6> q4 %55
+  <6 4> <5 \t>8 <\t _+>
+  r4 <7 _+>
+  r2
+  r4 <7 _+>
+  r8 <6> q <7> %60
+  <_+> <6> q <_+>
+  r2
+  r8 <5!>4 <6! 4>8
+  <7!>4. <\t>8
+  <_!> q <6 4> <5 _+> %65
+  r2
+  r
+  r
+  r
+  r2*2 %71
+  r4 <6 5>8 <\t \t>
+  r4 <7>
+  <6 4>8 <5 3>4.
+  <6>4. <7>8 %75
+  r2
+  r2*2
+  r2
+  r8 <6 5>4 <7>8 %80
+  r4 <6>8 <8 6>16 <7 5>
+  <6 4>8 <5 3>4.
+  r2
+  r8 <7>4.
+  r4 <6>8 <8 6>16 <7 5> %85
+  <6 4>8 <5 3>4.
+  r8 <6>4 <4+ 3>8
+  r <6>4 <4+ _!>8
+  r <6!>4 <7 5!>8
+  <_+> <4 3> <6> q %90
+  <6 4>4 <5 3>
+  r2
+  r4 <7>
+  r2
+  r4 <7> %95
+  r2
+  r4 <7>
+  r2
+  r8 <6> q4
+  r2 %100
+  r
+  r
+  r
+  r
+  r4 <6>8 q %105
+  <6 4>4 <5 \t>8 <\t 3>
+  r <6> q q
+  <6 4>4 <5 3>
+  r4. <6 4>8
+  <\t \t> <5 3>4 <6 4>8 %110
+  <\t \t> <5 3> <6>4
+  <9 4>8 <8 3>4.
+  r8 <6> q q
+  r4 <6>
+  r2 %115
+  r
+  <6 4>
+  <7+ 4>
+  <8 3>4 <6 5>
+  <4> <7> %120
+  <_+>2
+  <7! _+>
+  <4>8 <_+> <\t> <6\\ 4+>
+  <7 5+ _+>2
+  <4>8 <3>4. %125
+  <6\\ 5>4 <\t \t>
+  r8 <7 5+ _+>4.
+  r8 <6>4 <6 4>8
+  <5 3> <6\\> <6>4
+  <6+ 4+ 2>8 <6>4. %130
+  r8 <5 3>4. \bassFigureExtendersOn
+  q4. q8 \bassFigureExtendersOff
+  <6 4>4 <5+ _+>
+  r2
+  r4 <7> %135
+  r2
+  r4 <7>
+  r8 <6> q4
+  r8 q <6 5>4
+  r2 %140 finis
+}

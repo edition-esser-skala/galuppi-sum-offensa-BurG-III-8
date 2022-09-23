@@ -227,3 +227,142 @@ QuaeViolinoII = {
     r4 r8 cis\fE d4 r\fermata \bar "|." %34 finis
   }
 }
+
+DumViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoDum
+    h8\fE d16. c32 h8 e
+    e16 d d4 e'8
+    e32( d16.) d32( c16.) c32( h16.) h32( a16.)
+    a16 g g4 e'8
+    e16 a, a8~ a16 h32 c h16 a %5
+    g8 r r4
+    R2*6 %12
+    g8.\pE g32 h a16( g) a-! fis-!
+    g( h) h4 r8
+    g8. g32 h a16( g) a-! fis-! %15
+    g( h) h4 r8
+    g8.\fE g32 h a16( g) a-! fis-!
+    g' e8. e8 d32 c h a
+    g8 g32 fis g a a4\trill
+    g'8~ \tuplet 3/2 8 { g16 fis e e-! d-! c-! h[-! a-! g]-! } %20
+    d8. g32 a a4\trill \noBreak
+    g8 d g, r \bar "S-S"
+    h\pE d16. c32 h8 e \noBreak
+    e16 d d4.
+    h8 d16. c32 h8 c' %25
+    c16 h h4 e8
+    e32( d16.) d32( c16.) c32( h16.) h32( a16.)
+    a8^\critnote g4 c8
+    c32( e,16.) e32( a16.) a32(^\critnote g16.) g32( fis16.)
+    g8 r r4 %30
+    d8 r r4
+    d8 r r4
+    d8 r r4
+    d8 r r4
+    d8 r r4 %35
+    d8 r r4
+    R2*3
+    fis8 a16. g32 fis8 fis %40
+    fis e cis4
+    d8 d'4 cis8
+    d a d, fis
+    r d h' e
+    r a, d fis %45
+    r \once \slurDashed fis( e d)
+    \appoggiatura d cis4 r
+    R2
+    r8 fis,16.( g32 fis8) fis16.( g32
+    fis8) r r4 %50
+    r8 fis16.( g32 fis8) fis16.( g32
+    fis8) r r4
+    r8 a h e
+    fis, fis e e
+    fis a' \tuplet 3/2 8 { g16[ fis e] d cis h } %55
+    a8 d d cis
+    d8.\fE d32 fis e16( d) e-! cis-!
+    d fis fis fis fis fis fis fis
+    d8. d32 fis e16( d) e-! cis-!
+    d8 \tuplet 3/2 8 { a'16 g fis g[ fis e] d cis h } %60
+    a8. d32 e e4\trill
+    d8 a d, r
+    d'\pE f16. e32 d8 f,
+    f r r d'
+    d32( c!16.) c32( h16.) h32( a16.) a32( gis16.) %65
+    a8 r r4
+    e8 r r4
+    e8 r r4
+    e8 r r4
+    R2*2 %71
+    r4 r8 fis16. a32
+    g8 h4 g8
+    g fis r fis
+    g g g g %75
+    fis r r4
+    R2
+    r4\fermata r8 d
+    d g4 fis16 eis?
+    fis8^\critnote a4 g16 fis %80
+    g8 h4 a16 g
+    g8 fis r4
+    d8 g4 fis16 eis?
+    fis8 a4 g16 fis
+    g8 h4 a16 g %85
+    g8 fis r a16 h
+    \appoggiatura d32 c16 h c d e fis g ais,
+    \appoggiatura c32 h16 ais h cis d e f gis,
+    \appoggiatura h32 a16 gis a h c d e g,
+    fis!8 a d a %90
+    g g fis fis
+    g4 r
+    g8. g32 h a16 g a fis
+    g h h8 r4
+    g a16( g) a-! fis-! %95
+    g h h8 r4
+    g a16 g a fis
+    g c c4 a8
+    g g g-\critnote fis
+    g r r4 %100
+    r8 h16.( c32 h8) h16.( c32
+    h8) r r4
+    r8 d,16.( e32 d8) d16.( e32
+    d8) r r4
+    r8 g'\fE \tuplet 3/2 8 { fis16[ e d] c h a } %105
+    d,8 g4 fis8
+    g' \tuplet 3/2 8 { fis16[ g e] d e c h[ c a] }
+    g4\fermata r
+    h,8 d16. c32 h8 e
+    \appoggiatura fis32 e16 d d4 c'8 %110
+    \appoggiatura d32 c16 h h4 e8
+    e32( d16.) d32( c16.) c32( h16.) h32( a16.)
+    g'8 \tuplet 3/2 8 { fis16 g e d e c h[ c a] }
+    h8 c32 h a g a4\trill
+    g8 d g,\fermata r %115
+    \tempoDumB g'16\fp g g g g g g g
+    a a a a a a a a
+    a a a a a a a a
+    g g g g h fis fis fis
+    e' e, e e g e e e %120
+    fis32 h\f cis dis e fis gis ais h4
+    h,16\pE h h h h h h h
+    e,8 e'4 eis8
+    fis16 cis cis cis cis cis cis cis
+    h8 d4 h8 %125
+    h16 h h h h h h h
+    ais e' e cis cis h h ais
+    h8 h4 h8
+    h a'\f h h,
+    ais h r4 %130
+    r8 g fis e
+    r g fis eis
+    fis4\fermata r
+    R2
+    \tempoDumC g'8. g32 h a16 g a fis %135
+    g h h h h h h h
+    g8. g32 h a16 g a fis
+    g8~ \tuplet 3/2 8 { g16[ fis e] d e c h[ c a] }
+    h8 c32( h a g) a4\trill
+    g8 d g, r \bar "S-S" %140 finis
+  }
+}
